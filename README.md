@@ -19,13 +19,13 @@ In order to run this container you'll need docker installed.
 Python in the container
 
 ```shell
-docker run -it dpulpeiro/parrot-olympe:1.8.0-python3.7-slim-buster python
+docker run -it --network host dpulpeiro/parrot-olympe:1.8.0-python3.7-slim-buster python
 ```
 
 Shell in the container 
 
 ```shell
-docker run -it dpulpeiro/parrot-olympe:1.8.0-python3.7-slim-buster bash
+docker run -it --network host dpulpeiro/parrot-olympe:1.8.0-python3.7-slim-buster bash
 ```
 #### Example of customized dockerfile and usage for your app
 
@@ -46,8 +46,10 @@ docker build -t your-image .
 Usage with a shell in the root of your application
 
 ```shell
-docker run -it -v $PWD:/app your-image python your-main-file.py
+docker run -it --network host -v $PWD:/app your-image python your-main-file.py
 ```
+
+Remember to use the option `--network host` to be able to connect to your drone or parrot sphinx.
 
 #### Useful File Locations
 
