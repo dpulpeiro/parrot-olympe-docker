@@ -61,8 +61,8 @@ docker run -it -v $PWD:/app your-image python your-main-file.py
 
 ## Authors
 
-* **Daniel García Pulpeiro** - ** - [dpulpeiro](https://github.com/dpulpeiro)
+* **Daniel García Pulpeiro** - [dpulpeiro](https://github.com/dpulpeiro)
 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE.md](https://github.com/dpulpeiro/parrot-olympe-docker/LICENSE.md) file for details.
+This project is licensed under the MIT License - see the [LICENSE](https://github.com/dpulpeiro/parrot-olympe-docker/LICENSE) file for details.
