@@ -56,8 +56,7 @@ docker run -it -v $PWD:/app your-image python your-main-file.py
 
 ## Find Us
 
-* [GitHub](https://github.com/your/repository)
-* [Quay.io](https://quay.io/repository/your/docker-repository)
+* [GitHub](https://github.com/dpulpeiro/parrot-olympe-docker)
 
 
 ## Authors
