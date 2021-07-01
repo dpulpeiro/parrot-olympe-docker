@@ -3,8 +3,6 @@ Docker image that contains a modified version of Parrot Olympe withouth a virtua
 
 ## Getting Started
 
-These instructions will cover usage information and for the docker container 
-
 ### Prerequisities
 
 
