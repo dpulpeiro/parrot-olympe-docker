@@ -48,3 +48,4 @@ RUN pip install --no-cache-dir clang~=${CLANG_VERSION} \
   && pip install --no-cache-dir -r $PY_REQS_TXT \
   && ./build.sh -p olympe-linux -A all final -j 
 
+WORKDIR /app
